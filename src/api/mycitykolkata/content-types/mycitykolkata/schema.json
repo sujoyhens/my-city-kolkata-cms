@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mycitykolkatas",
+  "info": {
+    "singularName": "mycitykolkata",
+    "pluralName": "mycitykolkatas",
+    "displayName": "mycitykolkata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "gmaplink": {
+      "type": "string"
+    },
+    "zomatourl": {
+      "type": "string"
+    },
+    "swiggyurl": {
+      "type": "string"
+    },
+    "weburl": {
+      "type": "string"
+    },
+    "wikipediaurl": {
+      "type": "string"
+    },
+    "otherurl": {
+      "type": "string"
+    },
+    "cuisine": {
+      "type": "enumeration",
+      "enum": [
+        "Indian Cuisine",
+        "Chinese Cuisine",
+        "Japanese Cuisine",
+        "Italian Cuisine",
+        "Legendary Diners",
+        "Continental",
+        "Vegetarian Eateries",
+        "Other"
+      ]
+    },
+    "popularity": {
+      "type": "decimal"
+    },
+    "ratings": {
+      "type": "decimal"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "contactdetails": {
+      "type": "text"
+    }
+  }
+}
