@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mycitykolkata",
     "pluralName": "mycitykolkatas",
-    "displayName": "mycitykolkata"
+    "displayName": "mycitykolkata",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,14 +25,15 @@
       "type": "text"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "latitude": {
       "type": "float"
@@ -57,19 +59,6 @@
     "otherurl": {
       "type": "string"
     },
-    "cuisine": {
-      "type": "enumeration",
-      "enum": [
-        "Indian Cuisine",
-        "Chinese Cuisine",
-        "Japanese Cuisine",
-        "Italian Cuisine",
-        "Legendary Diners",
-        "Continental",
-        "Vegetarian Eateries",
-        "Other"
-      ]
-    },
     "popularity": {
       "type": "decimal"
     },
@@ -81,6 +70,24 @@
     },
     "contactdetails": {
       "type": "text"
+    },
+    "cuisine": {
+      "type": "string"
+    },
+    "suggestion": {
+      "type": "json"
+    },
+    "point_to_note": {
+      "type": "text"
+    },
+    "trivia": {
+      "type": "text"
+    },
+    "visiting_hours": {
+      "type": "text"
+    },
+    "subcategory": {
+      "type": "string"
     }
   }
 }
