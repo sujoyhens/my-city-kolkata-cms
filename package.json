@@ -5,7 +5,7 @@
   "description": "A Content Management Application for My City KOlkata",
   "scripts": {
     "develop": "strapi develop",
-    "start": "forever strapi start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
@@ -14,7 +14,6 @@
     "@strapi/plugin-users-permissions": "4.13.6",
     "@strapi/provider-upload-cloudinary": "^4.13.6",
     "@strapi/strapi": "4.13.6",
-    "forever": "^4.0.3",
     "pg": "8.8.0"
   },
   "author": {
