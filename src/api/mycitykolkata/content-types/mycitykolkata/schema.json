@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "category": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },
@@ -88,6 +85,17 @@
     },
     "subcategory": {
       "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Explore Kolkata",
+        "Where To Shop",
+        "Things To Do",
+        "Cuisines To Explore",
+        "Weekend Gateways",
+        "KMC Health Centre Near You"
+      ]
     }
   }
 }
