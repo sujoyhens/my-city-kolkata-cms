@@ -62,8 +62,9 @@
     "ratings": {
       "type": "decimal"
     },
-    "display": {
-      "type": "boolean"
+    "suggested": {
+      "type": "boolean",
+      "default": false
     },
     "contactdetails": {
       "type": "text"
@@ -71,7 +72,7 @@
     "cuisine": {
       "type": "string"
     },
-    "suggestion": {
+    "nextsuggestion": {
       "type": "json"
     },
     "point_to_note": {

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "healthcares",
+  "info": {
+    "singularName": "healthcare",
+    "pluralName": "healthcares",
+    "displayName": "healthcare"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "borough": {
+      "type": "string"
+    },
+    "establishmentname": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "latitude": {
+      "type": "decimal"
+    },
+    "longitude": {
+      "type": "decimal"
+    },
+    "uphcno": {
+      "type": "integer"
+    },
+    "wardno": {
+      "type": "integer"
+    }
+  }
+}
