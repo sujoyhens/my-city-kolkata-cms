@@ -97,6 +97,10 @@
         "Weekend Getaways",
         "KMC Health Centre Near You"
       ]
+    },
+    "showonmain": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
