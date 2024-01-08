@@ -1003,7 +1003,8 @@ export interface ApiMycitykolkataMycitykolkata extends Schema.CollectionType {
         'Things To Do',
         'Cuisines To Explore',
         'Weekend Getaways',
-        'KMC Health Centre Near You'
+        'How To Travel',
+        'Health Center Near\u00A0Me'
       ]
     >;
     showonmain: Attribute.Boolean & Attribute.DefaultTo<false>;
