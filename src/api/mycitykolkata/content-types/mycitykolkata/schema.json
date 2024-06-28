@@ -104,6 +104,9 @@
     "showonmain": {
       "type": "boolean",
       "default": false
+    },
+    "descriptionnew": {
+      "type": "richtext"
     }
   }
 }
