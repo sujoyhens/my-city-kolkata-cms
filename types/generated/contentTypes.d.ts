@@ -868,12 +868,14 @@ export interface ApiAttractionAttraction extends Schema.CollectionType {
     singularName: 'attraction';
     pluralName: 'attractions';
     displayName: 'attraction';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     main: Attribute.JSON;
+    bottom: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

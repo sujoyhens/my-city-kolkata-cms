@@ -4,7 +4,8 @@
   "info": {
     "singularName": "attraction",
     "pluralName": "attractions",
-    "displayName": "attraction"
+    "displayName": "attraction",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "main": {
+      "type": "json"
+    },
+    "bottom": {
       "type": "json"
     }
   }
